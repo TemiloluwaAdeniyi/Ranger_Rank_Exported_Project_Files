@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  p {
+    padding: 0.5px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  #username {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    padding: 15px;
+  }
+  
+  #password {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    padding: 15px;
+  }
+  
+  #submit {
+    left: 40px;
+  }
+  
+  .login-info {
+    padding : 0.5px;
+    display : inline-block;
+  }
+  
+  .login-info > input {
+    display: inline-block;
+  }
+  
+  .button {
+    padding : 0.5px;
+    display : block;
+  }
+  
+  #firstset {
+    padding : 15px;
+  }
+  
+  #secondset {
+    padding: 15px;
+  }
+  
+  #loginButton {
+    padding: 5.5px;
+    position: relative;
+    background-color: lightgreen;
+    border-radius: 10px;
+  }
+  
+  #cancelButton {
+    margin-left: 20px;
+    padding: 5.5px;
+    position: relative;
+    background-color: lightcoral;
+    border-radius: 10px;
+  }
+  
+  .buttons {
+    right: 10px;
+  }
